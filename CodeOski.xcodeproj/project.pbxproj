@@ -94,14 +94,8 @@
 				EB26140C19DFFAB700634086 /* AppDelegate.m */,
 				EB26140E19DFFAB700634086 /* ViewController.h */,
 				EB26140F19DFFAB700634086 /* ViewController.m */,
-				EB26143C19E0917A00634086 /* CustomIOS7AlertView.h */,
-				EB26143D19E0917A00634086 /* CustomIOS7AlertView.m */,
 				EB26141119DFFAB700634086 /* Main.storyboard */,
-				EB26141419DFFAB700634086 /* Images.xcassets */,
-				EB26141619DFFAB700634086 /* LaunchScreen.xib */,
-				EB26143019E0056F00634086 /* Roboto-Regular.ttf */,
-				EB26143419E007D800634086 /* Roboto-Medium.ttf */,
-				EB26143119E0056F00634086 /* Roboto-Thin.ttf */,
+				EB26143F19E0B84500634086 /* Fonts and Support */,
 				EB26140719DFFAB700634086 /* Supporting Files */,
 			);
 			path = CodeOski;
@@ -110,6 +104,7 @@
 		EB26140719DFFAB700634086 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB26141419DFFAB700634086 /* Images.xcassets */,
 				EB26140819DFFAB700634086 /* Info.plist */,
 				EB26140919DFFAB700634086 /* main.m */,
 			);
@@ -131,6 +126,19 @@
 				EB26142219DFFAB700634086 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB26143F19E0B84500634086 /* Fonts and Support */ = {
+			isa = PBXGroup;
+			children = (
+				EB26143C19E0917A00634086 /* CustomIOS7AlertView.h */,
+				EB26143D19E0917A00634086 /* CustomIOS7AlertView.m */,
+				EB26143019E0056F00634086 /* Roboto-Regular.ttf */,
+				EB26143419E007D800634086 /* Roboto-Medium.ttf */,
+				EB26143119E0056F00634086 /* Roboto-Thin.ttf */,
+				EB26141619DFFAB700634086 /* LaunchScreen.xib */,
+			);
+			name = "Fonts and Support";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,6 +438,7 @@
 				EB26142919DFFAB700634086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB26142A19DFFAB700634086 /* Build configuration list for PBXNativeTarget "CodeOskiTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +447,7 @@
 				EB26142C19DFFAB700634086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
