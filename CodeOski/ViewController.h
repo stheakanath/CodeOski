@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CustomIOS7AlertView.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate, CustomIOS7AlertViewDelegate> {
+    UITableView *alarms;
+}
 
 @end
 

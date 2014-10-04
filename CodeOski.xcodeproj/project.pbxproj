@@ -14,6 +14,10 @@
 		EB26141519DFFAB700634086 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB26141419DFFAB700634086 /* Images.xcassets */; };
 		EB26141819DFFAB700634086 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB26141619DFFAB700634086 /* LaunchScreen.xib */; };
 		EB26142419DFFAB700634086 /* CodeOskiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB26142319DFFAB700634086 /* CodeOskiTests.m */; };
+		EB26143219E0056F00634086 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB26143019E0056F00634086 /* Roboto-Regular.ttf */; };
+		EB26143319E0056F00634086 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB26143119E0056F00634086 /* Roboto-Thin.ttf */; };
+		EB26143519E007D800634086 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB26143419E007D800634086 /* Roboto-Medium.ttf */; };
+		EB26143E19E0917A00634086 /* CustomIOS7AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB26143D19E0917A00634086 /* CustomIOS7AlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		EB26141D19DFFAB700634086 /* CodeOskiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeOskiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB26142219DFFAB700634086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB26142319DFFAB700634086 /* CodeOskiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeOskiTests.m; sourceTree = "<group>"; };
+		EB26143019E0056F00634086 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		EB26143119E0056F00634086 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		EB26143419E007D800634086 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		EB26143C19E0917A00634086 /* CustomIOS7AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOS7AlertView.h; sourceTree = "<group>"; };
+		EB26143D19E0917A00634086 /* CustomIOS7AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOS7AlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +94,14 @@
 				EB26140C19DFFAB700634086 /* AppDelegate.m */,
 				EB26140E19DFFAB700634086 /* ViewController.h */,
 				EB26140F19DFFAB700634086 /* ViewController.m */,
+				EB26143C19E0917A00634086 /* CustomIOS7AlertView.h */,
+				EB26143D19E0917A00634086 /* CustomIOS7AlertView.m */,
 				EB26141119DFFAB700634086 /* Main.storyboard */,
 				EB26141419DFFAB700634086 /* Images.xcassets */,
 				EB26141619DFFAB700634086 /* LaunchScreen.xib */,
+				EB26143019E0056F00634086 /* Roboto-Regular.ttf */,
+				EB26143419E007D800634086 /* Roboto-Medium.ttf */,
+				EB26143119E0056F00634086 /* Roboto-Thin.ttf */,
 				EB26140719DFFAB700634086 /* Supporting Files */,
 			);
 			path = CodeOski;
@@ -201,6 +215,9 @@
 			files = (
 				EB26141319DFFAB700634086 /* Main.storyboard in Resources */,
 				EB26141819DFFAB700634086 /* LaunchScreen.xib in Resources */,
+				EB26143519E007D800634086 /* Roboto-Medium.ttf in Resources */,
+				EB26143219E0056F00634086 /* Roboto-Regular.ttf in Resources */,
+				EB26143319E0056F00634086 /* Roboto-Thin.ttf in Resources */,
 				EB26141519DFFAB700634086 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +238,7 @@
 			files = (
 				EB26141019DFFAB700634086 /* ViewController.m in Sources */,
 				EB26140D19DFFAB700634086 /* AppDelegate.m in Sources */,
+				EB26143E19E0917A00634086 /* CustomIOS7AlertView.m in Sources */,
 				EB26140A19DFFAB700634086 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
